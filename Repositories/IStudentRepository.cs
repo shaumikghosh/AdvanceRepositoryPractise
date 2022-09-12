@@ -7,8 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Repositories;
-public interface IStudentRepository : IBaseRepository<StudentViewModel>
+public interface IStudentRepository : IBaseRepository<StudentViewModel, Student>
 {
-    Task<IEnumerable<Student>> GetAllStudents();
-    Task<Student> GetStudentDetailsById(int Id);
+    // if some specific operation need in future
 }

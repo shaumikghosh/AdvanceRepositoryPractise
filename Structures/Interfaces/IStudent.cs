@@ -7,8 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Structures.Interfaces;
-public interface IStudent : IBase<StudentViewModel>
+public interface IStudent : IBase<StudentViewModel, Student>
 {
-    Task<IEnumerable<Student>> GetAllStudents();
-    Task<Student> GetStudentDetailsById(int Id);
+   // if some specific operation need in future
 }

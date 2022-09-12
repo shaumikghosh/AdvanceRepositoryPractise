@@ -40,32 +40,23 @@ public class StudentReository : BaseRpository, IStudentRepository
         var student = await _dataContext.Students!.FindAsync(Id);
         if(student != null)
             _dataContext.Students.Remove(student);
+        await _dataContext.SaveChangesAsync();
     }
 
-    public Task<IEnumerable<StudentViewModel>> GetAllData()
-    {
-        throw new NotImplementedException();
-    }
-
-    public async Task<IEnumerable<Student>> GetAllStudents()
+    public async Task<IEnumerable<Student>> GetAllData()
     {
         return await _dataContext.Students!.ToListAsync();
     }
 
-    public Task<StudentViewModel> GetDataById(int Id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public async Task<Student> GetStudentDetailsById(int Id)
+    public async Task<Student> GetDataById(int Id)
     {
         var student = await _dataContext.Students!.FindAsync(Id);
         return new Student
         {
             Id = student!.Id,
             StudentName = student!.StudentName,
-            StudentEmail=student!.StudentEmail,
-            
+            StudentEmail = student!.StudentEmail,
+
         };
     }
 
