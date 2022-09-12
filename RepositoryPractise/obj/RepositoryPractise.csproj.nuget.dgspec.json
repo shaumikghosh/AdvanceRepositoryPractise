@@ -1,0 +1,345 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\RepositoryPractise\\RepositoryPractise.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Enums\\Enums.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Enums\\Enums.csproj",
+        "projectName": "Enums",
+        "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Enums\\Enums.csproj",
+        "packagesPath": "C:\\Users\\EliteBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Enums\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EliteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj",
+        "packagesPath": "C:\\Users\\EliteBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EliteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Repositories\\Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Repositories\\Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\EliteBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EliteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Enums\\Enums.csproj"
+              },
+              "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj": {
+                "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\RepositoryPractise\\RepositoryPractise.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\RepositoryPractise\\RepositoryPractise.csproj",
+        "projectName": "RepositoryPractise",
+        "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\RepositoryPractise\\RepositoryPractise.csproj",
+        "packagesPath": "C:\\Users\\EliteBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\RepositoryPractise\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EliteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj": {
+                "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj"
+              },
+              "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Repositories\\Repositories.csproj"
+              },
+              "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Structures\\Structures.csproj": {
+                "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Structures\\Structures.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Structures\\Structures.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Structures\\Structures.csproj",
+        "projectName": "Structures",
+        "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Structures\\Structures.csproj",
+        "packagesPath": "C:\\Users\\EliteBook\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Structures\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\EliteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Enums\\Enums.csproj": {
+                "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Enums\\Enums.csproj"
+              },
+              "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj": {
+                "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Model\\Models.csproj"
+              },
+              "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\EliteBook\\source\\repos\\RepositoryPractise\\Repositories\\Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

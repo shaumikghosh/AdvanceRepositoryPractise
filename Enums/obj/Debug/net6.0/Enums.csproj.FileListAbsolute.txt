@@ -1,0 +1,12 @@
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\bin\Debug\net6.0\Enums.deps.json
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\bin\Debug\net6.0\Enums.dll
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\bin\Debug\net6.0\Enums.pdb
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\Enums.csproj.AssemblyReference.cache
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\Enums.AssemblyInfoInputs.cache
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\Enums.AssemblyInfo.cs
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\Enums.csproj.CoreCompileInputs.cache
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\Enums.dll
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\refint\Enums.dll
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\Enums.pdb
+C:\Users\EliteBook\source\repos\RepositoryPractise\Enums\obj\Debug\net6.0\ref\Enums.dll
