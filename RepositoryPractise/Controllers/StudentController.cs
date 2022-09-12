@@ -1,9 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Models.ViewModels;
-using RepositoryPractise.Models;
 using Structures.Interfaces;
-using System.Diagnostics;
 
 namespace RepositoryPractise.Controllers;
 [Route("api")]

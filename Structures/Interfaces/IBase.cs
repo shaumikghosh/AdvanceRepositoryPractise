@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Structures.Interfaces;
+﻿namespace Structures.Interfaces;
 public interface IBase<T, U> where T : class where U : class
 {
     Task<IEnumerable<U>> GetAllData();

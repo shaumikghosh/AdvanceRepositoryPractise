@@ -3,11 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using Models.Data;
 using Models.Models;
 using Models.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Repositories;
 public class StudentReository : BaseRpository, IStudentRepository
